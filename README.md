@@ -7,13 +7,11 @@ An ETPL syntax definition & snippets specifically for Atom.
 
 [ETPL](http://ecomfe.github.io/etpl/) is a reusable, flexible, high-performance JavaScript template engine for Browser & Node.
 
-## Screenshot
+## Syntax highlighting
 
-## Install
+<img width="978" alt="Atom Material" src="https://cloud.githubusercontent.com/assets/157338/9302291/12577ace-4508-11e5-97bf-6a39af302539.png">
 
-## Usage
-
-### Snippets
+## Snippets
 
 * `target:` + <kbd>Tab</kbd> → `<!-- target: TARGET_NAME(master = MASTER_NAME) -->`
 * `block:` + <kbd>Tab</kbd> → `<!-- block: BLOCK_NAME --> ... <!-- /block -->`

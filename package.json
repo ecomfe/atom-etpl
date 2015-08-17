@@ -1,7 +1,7 @@
 {
-  "name": "atom-etpl",
+  "name": "etpl",
   "version": "0.1.0",
-  "description": "ETPL syntax support for Atom",
+  "description": "An ETPL syntax definition & snippets specifically for Atom.",
   "author": {
       "name": "Firede",
       "email": "firede@firede.us",
@@ -17,7 +17,7 @@
       "grammars",
       "snippets"
   ],
-  "repository": "https://github.com/firede/atom-etpl",
+  "repository": "https://github.com/ecomfe/atom-etpl",
   "license": "MIT",
   "dependencies": {}
 }
