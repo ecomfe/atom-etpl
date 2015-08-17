@@ -1,0 +1,31 @@
+'.text.html.etpl':
+  'block (ETPL)':
+    'prefix': 'block:'
+    'body': '<!-- block: ${1:BLOCK_NAME} -->${0}<!-- /block -->'
+  'elif (ETPL)':
+    'prefix': 'elif:'
+    'body': '<!-- elif: ${1:CONDITIONAL_EXPRESSION} -->\n${0}'
+  'else (ETPL)':
+    'prefix': 'else:'
+    'body': '<!-- else -->\n${0}'
+  'filter (ETPL)':
+    'prefix': 'filter:'
+    'body': '<!-- filter: ${1:${2:FILTER_NAME}(${3:ARGUMENTS})} -->\n${0}\n<!-- /filter -->'
+  'for (ETPL)':
+    'prefix': 'for:'
+    'body': '<!-- for: ${1:VARIABLE} as ${2:${3:ITEM}, ${4:KEY_OR_INDEX}} -->\n${0}\n<!-- /for -->'
+  'if (ETPL)':
+    'prefix': 'if:'
+    'body': '<!-- if: ${1:CONDITIONAL_EXPRESSION} -->\n${0}\n<!-- /if -->'
+  'import (ETPL)':
+    'prefix': 'import:'
+    'body': '<!-- import: ${1:TARGET_NAME} -->\n${0}'
+  'target (ETPL)':
+    'prefix': 'target:'
+    'body': '<!-- target: ${1:${2:TARGET_NAME}(master = ${3:MASTER_NAME})} -->\n${0}'
+  'use (ETPL)':
+    'prefix': 'use:'
+    'body': '<!-- use: ${1:${2:TARGET_NAME}(${3:ASSIGNMENT_EXPRESSIONS})} -->\n${0}'
+  'var (ETPL)':
+    'prefix': 'var:'
+    'body': '<!-- var: ${1:VAR_NAME} = ${2:EXPRESSION} -->\n${0}'
